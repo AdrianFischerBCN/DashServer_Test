@@ -15,7 +15,6 @@ card = dbc.Card(
                 top=True),
             hidden = True,
             id="DivConImg"
-
         ),
         dbc.CardBody(
             children=[
