@@ -53,7 +53,8 @@ layout = html.Div(
 def update_output(n_clicks):
     list_resultado=[
         html.H4("Achuuuche!", className="card-title"),
-        html.P("Mua mua mua mua"),
+        html.P("Mua mua mua mua",
+               className="bg-dark text-info"),
         html.P("Haz clic para añadir más achuches"),
         html.P("Total de achuches = " + str(n_clicks))]
 
